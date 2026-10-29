@@ -1,0 +1,29 @@
+{
+  "name": "stylepilot-ai",
+  "version": "1.0.0",
+  "description": "StylePilot AI - Copiloto Comercial & de Estilo para Moda Masculina e Atendimento ao Cliente",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "test": "tsx src/app.ts --test"
+  },
+  "keywords": [
+    "copilot",
+    "ai",
+    "retail",
+    "fashion",
+    "rag",
+    "gemini"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
